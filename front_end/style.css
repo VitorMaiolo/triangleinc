@@ -1,8 +1,88 @@
-@font-face {
-    font-family: 'CHOMSKY-8MOA2';
-    src: url(c:\USERS\2_DEV\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\CHOMSKY-8MOA2.OTF) format('truetype');
-}
+/*--electric-indigo: #6b35e8ff;
+--zaffre: #3f13a4ff;
+--black: #050505ff;
+--davys-gray: #595959ff;
+--seasalt: #fafafaff;*/
 
 body {
-    font-family: 'CHOMSKY-8MOA2', Arial, sans-serif;
+    font-family: "Poppins";
+    padding-top: 90px;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    z-index: 1000;
+    box-shadow: 0px 1px 1px #c0c0c0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    list-style: none;
+    padding: 20px;
+    transition: 300ms ease-in-out;
+}
+
+nav li:hover{
+    color: rgb(197, 97, 255);
+    cursor: pointer;
+}
+nav h1 {
+    margin-right: 500px;
+}
+
+footer {
+    margin-top: 10px;
+    height: 80px;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: unset;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .imagem-footer{
+    display: inline;
+    justify-content: c;
+    padding: 10px;
+    width: 24px;
+    transition: 300ms ease-in-out;
+  }
+
+  .imagem-footer:hover{
+    transform: scale(1.2);
+  }
+
+.end{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.sobre {
+    margin-left: 50px;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
 }
