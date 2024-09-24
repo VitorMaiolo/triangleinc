@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CHOMSKY-8MOA2';
+    src: url(c:\USERS\2_DEV\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\CHOMSKY-8MOA2.OTF) format('truetype');
+}
+
+body {
+    font-family: 'CHOMSKY-8MOA2', Arial, sans-serif;
+}
