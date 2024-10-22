@@ -39,7 +39,7 @@ nav li {
 }
 
 nav li:hover{
-    color: #8a2ce2;
+    color: #ffd500;
     cursor: pointer;
 }
 nav h1 {
@@ -99,9 +99,9 @@ footer {
 .slogan a {
     position: absolute;
     margin-top: 300px;
-    margin-right: 850px;
+    margin-right: 880px;
     text-decoration: none;
-    background-color: #8a2ce2;
+    background-color: #ffd500;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -217,7 +217,7 @@ footer {
   }
   
   .mvv-title span{
-    color: #8a2ce2;
+    color: #ffd500;
     font-size: 50px;
   }
 
@@ -248,7 +248,7 @@ footer {
 
 .label-mvv h4{
     padding: 9px;
-    background-color: #8a2ce2;
+    background-color: #ffd500;
     color: #fff;
     border-radius: 0px 15px 0px 15px;
 }
