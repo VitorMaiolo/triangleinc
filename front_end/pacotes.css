@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins";
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.title {
+    color: #30ff30;
+}
+
+.title span{
+    color: #ececec;
+}
+
