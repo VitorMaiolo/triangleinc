@@ -5,45 +5,98 @@
 --seasalt: #fafafaff;*/
 
 body {
-    font-family: "Poppins";
-    padding-top: 90px;
-    overflow-x: hidden;
-    margin: 0;
+  font-family: "Poppins";
+  padding-top: 90px;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 nav {
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 90px;
-    z-index: 1000;
-    box-shadow: 0px 1px 1px #c0c0c0;
-    background: transparent;
-    backdrop-filter: blur(10px);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  z-index: 1000;
+  box-shadow: 0px 1px 1px #c0c0c0;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 nav li {
-    list-style: none;
-    padding: 20px;
-    transition: 300ms ease-in-out;
+  list-style: none;
+  padding: 20px;
+  transition: 300ms ease-in-out;
 }
 
-nav li:hover{
-    color: #ffd500;
-    cursor: pointer;
+/* Estilo do hover para os itens do menu */
+nav li:hover {
+  color: #ffd500;
+  cursor: pointer;
 }
+
 nav h1 {
-    margin-right: 500px;
+  margin-right: 300px;
+}
+
+/* Estilo específico para o submenu */
+nav .pacotes {
+  position: relative; /* Necessário para o submenu */
+}
+
+nav .pacotes > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .submenu {
+  display: none; /* Inicialmente o submenu estará oculto */
+  position: absolute;
+  top: 100%; /* Fica logo abaixo do item PACOTES */
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+nav .submenu li {
+  padding: 8px 16px;
+}
+
+nav .submenu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px 16px;
+}
+
+nav .submenu li a:hover {
+  background-color: #ffd500;
+  color: white;
+}
+
+/* Quando o item PACOTES é hoverado, o submenu aparece */
+nav .pacotes:hover .submenu {
+  display: block;
+}
+
+/* Mantenha o estilo do hover para os outros itens da navbar */
+nav li:hover {
+  color: #ffd500;
+  cursor: pointer;
 }
 
 footer {
