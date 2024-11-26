@@ -40,7 +40,7 @@ nav li {
 
 /* Estilo do hover para os itens do menu */
 nav li:hover {
-  color: #ffd500;
+  color: #c77dff;
   cursor: pointer;
 }
 
@@ -84,7 +84,7 @@ nav .submenu li a {
 }
 
 nav .submenu li a:hover {
-  background-color: #ffd500;
+  background-color: #c77dff;
   color: white;
 }
 
@@ -95,7 +95,7 @@ nav .pacotes:hover .submenu {
 
 /* Mantenha o estilo do hover para os outros itens da navbar */
 nav li:hover {
-  color: #ffd500;
+  color: #c77dff;
   cursor: pointer;
 }
 
@@ -154,7 +154,7 @@ footer {
     margin-top: 300px;
     margin-right: 880px;
     text-decoration: none;
-    background-color: #ffd500;
+    background-color: #c77dff;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -270,7 +270,7 @@ footer {
   }
   
   .mvv-title span{
-    color: #ffd500;
+    color: #c77dff;
     font-size: 50px;
   }
 
@@ -301,7 +301,7 @@ footer {
 
 .label-mvv h4{
     padding: 9px;
-    background-color: #ffd500;
+    background-color: #c77dff;
     color: #fff;
     border-radius: 0px 15px 0px 15px;
 }
